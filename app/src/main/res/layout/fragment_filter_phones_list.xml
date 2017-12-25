@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/parametr_edit_text"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <Button
+            android:id="@+id/execute_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/execute" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/phones_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+
+</LinearLayout>

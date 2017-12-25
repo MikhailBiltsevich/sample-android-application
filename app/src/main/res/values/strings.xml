@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Лабораторная 7</string>
+
+    <string-array name="menu">
+        <item>Добавить</item>
+        <item>Сведения об абонентах, у которых время внутригородских разговоров превышает заданное</item>
+        <item>Сведения об абонентах, которые пользовались междугородной связью</item>
+        <item>Сведения об абонентах в алфавитном порядке</item>
+        <item>Сведения об абонентах с задолженностью</item>
+        <item>Сведения об абонентах по определённому адресу</item>
+        <item>Ближайшие филиалы Белтелеком</item>
+    </string-array>
+
+    <string name="open_drawer">Открыть меню</string>
+    <string name="close_drawer">Закрыть меню</string>
+
+    <string name="firstname">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="patronymic">Отчество</string>
+    <string name="creditCard">Номер кредитной карты</string>
+    <string name="address">Адрес</string>
+    <string name="debit">Дебет</string>
+    <string name="timeLongDistanceCalls">Время междугородних звонков</string>
+    <string name="timeCityCalls">Время внутригородских звонков</string>
+    <string name="ID">ID</string>
+    <string name="execute">Выполнить</string>
+    <string name="toToast">В Toast</string>
+
+</resources>
